@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Стоковый Фотокаталог</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Стоковые Фотографии</h1>
+<p>Кликните на изображение, чтобы открыть его на весь экран</p>
+</header>
+
+<!-- Сетка каталога -->
+<main class="gallery-container">
+
+<!-- Карточка 1 -->
+<div class="photo-card" data-full="https://unsplash.com/photo1">
+<div class="photo-wrapper">
+<img src="images/f1.jpg" alt="Горы и озеро" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 2 -->
+<div class="photo-card" data-full="https://unsplash.com/photo2">
+<div class="photo-wrapper">
+<img src="images/f2.jpg" alt="Туманный лес" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Портретная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 3 -->
+<div class="photo-card" data-full="https://unsplash.com/photo3">
+<div class="photo-wrapper">
+<img src="images/f3.JPG" alt="Лесная тропа" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Портретная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 4 -->
+<div class="photo-card" data-full="https://unsplash.com/photo4">
+<div class="photo-wrapper">
+<img src="images/f4.JPG" alt="Путешествие" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 5 -->
+<div class="photo-card" data-full="https://unsplash.com/photo5">
+<div class="photo-wrapper">
+<img src="images/f5.jpg" alt="Зеленые холмы" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Портретная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 6 -->
+<div class="photo-card" data-full="https://unsplash.com/photo6">
+<div class="photo-wrapper">
+<img src="images/f6.JPG" alt="Солнечный свет в лесу" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 7 -->
+<div class="photo-card" data-full="https://unsplash.com/photo7">
+<div class="photo-wrapper">
+<img src="images/f7.JPG" alt="Морской пейзаж" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 8 -->
+<div class="photo-card" data-full="https://unsplash.com/photo8">
+<div class="photo-wrapper">
+<img src="images/f8.JPG" alt="Городские огни" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 9 -->
+<div class="photo-card" data-full="https://unsplash.com/photo9">
+<div class="photo-wrapper">
+<img src="images/f9.JPG" alt="Цветочное поле" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 10 -->
+<div class="photo-card" data-full="https://unsplash.com/photo10">
+<div class="photo-wrapper">
+<img src="images/f10.JPG" alt="Пустыня" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 11 -->
+<div class="photo-card" data-full="https://unsplash.com/photo11">
+<div class="photo-wrapper">
+<img src="images/f11.JPG" alt="Водопад" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+<!-- Карточка 12 -->
+<div class="photo-card" data-full="https://unsplash.com/photo12">
+<div class="photo-wrapper">
+<img src="images/f12.JPG" alt="Звездное небо" loading="lazy">
+</div>
+<div class="photo-info">
+<h3>Каталожная съемка</h3>
+<p>Автор: Марюхнич София</p>
+</div>
+</div>
+
+</main>
+
+<!-- Полноэкранный overlay для просмотра фото -->
+<div class="fullscreen-overlay" id="fullscreenOverlay">
+<!-- Кнопка закрытия окна (&times; это знак крестика) -->
+<span class="close-btn" id="closeBtn">&times;</span>
+<!-- Сюда будет подставляться адрес большого изображения через JS -->
+<img src="" alt="Просмотр фото" class="fullscreen-image" id="fullscreenImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
